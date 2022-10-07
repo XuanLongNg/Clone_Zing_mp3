@@ -1,0 +1,30 @@
+:root {
+    --tim_xanh: #170F23;
+    --tim_nhat: #231B2E;
+    --tim: #8B45CA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html {
+    background-color: var(--tim_xanh);
+    font-family: Inter,sans-serif;
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color: white;
+}
