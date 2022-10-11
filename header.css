@@ -23,12 +23,16 @@
     /* display: flex; */
 }
 #header .search-bar div i {
+    padding:0 10px;
     width: 20px;
     height: 20px;
 }
 #header .search-bar .form-search {
     width: 400px;
-    height: 40px;
+    height: 38px;
     background-color: #2F2739;
     border:none;
+}
+#header .search-bar .form-search:focus {
+    outline: none;
 }
