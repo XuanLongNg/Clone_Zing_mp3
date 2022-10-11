@@ -1,4 +1,34 @@
 #header {
     width: 100%;
-    height: 100px;
+    height: 70px;
+    position: fixed;
+    padding: 0 60px;
+    left: 240px;
+    display: flex;
+}
+#header .search-bar {
+    display:flex;
+    margin: auto 0;
+}
+#header .search-bar > i {
+    width: 44px;
+    height: 40px;
+    line-height: 40px;
+}
+#header .search-bar div {
+    width: 450px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #2F2739;
+    /* display: flex; */
+}
+#header .search-bar div i {
+    width: 20px;
+    height: 20px;
+}
+#header .search-bar .form-search {
+    width: 400px;
+    height: 40px;
+    background-color: #2F2739;
+    border:none;
 }
